@@ -12,7 +12,6 @@ def bfs(start, infest_com):
     while deq:
         infest = deq.popleft()
 
-
         for i in range(len(link_computer[infest])):
 
             if visit[link_computer[infest][i]] == False:
@@ -27,6 +26,7 @@ N = int(input())
 case = int(input())
 
 link_computer = [[] for _ in range(N + 1)]
+
 for i in range(case):
     com1, com2 = map(int, input().split())
     link_computer[com1].append(com2)
