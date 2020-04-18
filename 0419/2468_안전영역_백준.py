@@ -5,7 +5,7 @@ import copy
 
 dr = [0, 0, -1, 1]
 dc = [-1, 1, 0, 0]
-
+# bfs
 def bfs(r, c):
     global area
     deq = collections.deque()
