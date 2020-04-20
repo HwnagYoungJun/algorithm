@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open('1916.txt')
 input = sys.stdin.readline
+
 def dijkstra():
     dijk = [float('inf') for _ in range(N + 1)]
     dijk[start] = 0
