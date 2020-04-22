@@ -30,7 +30,6 @@ result = list()
 max_haking = float('-inf')
 for i in range(1, N +1):
     hacking = bfs(i)
-    print(hacking)
     if hacking > max_haking:
         max_haking = hacking
         result.clear()
