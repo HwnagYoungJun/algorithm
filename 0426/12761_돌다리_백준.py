@@ -11,7 +11,6 @@ def bfs():
 
     while deq:
         stone, cnt = deq.popleft()
-        print(stone, cnt)
         for w in range(6):
             next_stone = stone + dx[w]
             if 0 <= next_stone < 100001:
