@@ -4,16 +4,12 @@ sys.stdin = open('2668.txt')
 def dfs(v, i):
     global result
     visit[v] = 1
-    print(v, i)
     nex = grape[v]
 
     if visit[nex] == 0:
         dfs(nex, i)
     elif visit[nex] == 1 and nex == i:
         result.append(nex)
-
-
-
 
 N = int(input())
 grape = [0 for i in range(N + 1)]
