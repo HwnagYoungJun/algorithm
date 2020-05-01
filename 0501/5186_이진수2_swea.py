@@ -9,7 +9,6 @@ for test_case in range(1, T + 1):
     result = list()
     a = 1
     while True:
-        print(N, a)
         if N == 0 or a < 2**(-13):
             break
         a /= 2
