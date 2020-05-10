@@ -14,8 +14,8 @@ def union(x, y):
         parent[fy] = fx
 
 N, M = map(int, input().split())
-
 road = []
+
 for _ in range(M):
     road.append(list(map(int, input().split())))
 
@@ -29,5 +29,6 @@ for i in range(M):
         union(v1, v2)
         min_cost += cost
         last_cost = cost
+
 print(min_cost - last_cost)
 
