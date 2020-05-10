@@ -40,7 +40,6 @@ def kmp(keyword, reference):
     
     return index
 
-
 # KMP 알고리즘으로 풀어볼것이다.
 
 T = input()
