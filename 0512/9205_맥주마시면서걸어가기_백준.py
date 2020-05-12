@@ -24,13 +24,10 @@ def bfs():
     
     return 'sad'
                  
-
 T = int(input())
 for test_case in range(1, T + 1):
+
     N = int(input())
-
-    # 1000m 이상은 상근이는 갈 수 없다.
-
     house = list(map(int, input().split()))
     combi = [list(map(int, input().split())) for _ in range(N)]
     festival = list(map(int, input().split()))
