@@ -7,11 +7,9 @@ const rl = readline.createInterface({
 var input = [];
 var index = 0;
 
-rl.on('line', function(line) {
-
-    input.push(line);
-
-}).on('close', function() {
+rl.on('line', line =>
+    input.push(line)
+).on('close', function() {
 
     solution();
     process.exit();
