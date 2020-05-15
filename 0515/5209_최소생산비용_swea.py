@@ -3,7 +3,6 @@ sys.stdin = open('5209.txt')
 
 def dfs(r, c, cost):
     global min_cost
-
     if cost >= min_cost:
         return
     if r == N - 1:
