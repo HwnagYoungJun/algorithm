@@ -8,8 +8,7 @@
 ## <TIL>
 ### 200516
   - JS로 배열정리하는 방법 (python에서 roadList.sort(key=lambda x:x[2]))랑 동일
-  - ```
-  roadList.sort((a, b) => {
+  - ```js roadList.sort((a, b) => {
     return a[2] < b[2] ? -1 : a[2] > b[2] ? 1 : 0
   })
-  ```
+  
