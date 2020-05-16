@@ -15,7 +15,7 @@ N, M = map(int, input().split())
 A = list(map(int, input().split()))
 
 left = 0
-right = 0
+right = 0 
 S = 0 # 합 변수
 count = 0
 
@@ -28,7 +28,6 @@ while True:
             break
         S += A[right]
         right += 1
-
     # 위 과정이 끝난 후 count를 집계
     if S == M:
         count += 1

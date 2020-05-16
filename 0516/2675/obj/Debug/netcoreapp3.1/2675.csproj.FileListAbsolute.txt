@@ -1,0 +1,11 @@
+C:\Users\황영준\Desktop\code\알고리즘\0516\2675\bin\Debug\netcoreapp3.1\2675.exe
+C:\Users\황영준\Desktop\code\알고리즘\0516\2675\bin\Debug\netcoreapp3.1\2675.deps.json
+C:\Users\황영준\Desktop\code\알고리즘\0516\2675\bin\Debug\netcoreapp3.1\2675.runtimeconfig.json
+C:\Users\황영준\Desktop\code\알고리즘\0516\2675\bin\Debug\netcoreapp3.1\2675.runtimeconfig.dev.json
+C:\Users\황영준\Desktop\code\알고리즘\0516\2675\bin\Debug\netcoreapp3.1\2675.dll
+C:\Users\황영준\Desktop\code\알고리즘\0516\2675\bin\Debug\netcoreapp3.1\2675.pdb
+C:\Users\황영준\Desktop\code\알고리즘\0516\2675\obj\Debug\netcoreapp3.1\2675.csprojAssemblyReference.cache
+C:\Users\황영준\Desktop\code\알고리즘\0516\2675\obj\Debug\netcoreapp3.1\2675.AssemblyInfoInputs.cache
+C:\Users\황영준\Desktop\code\알고리즘\0516\2675\obj\Debug\netcoreapp3.1\2675.AssemblyInfo.cs
+C:\Users\황영준\Desktop\code\알고리즘\0516\2675\obj\Debug\netcoreapp3.1\2675.dll
+C:\Users\황영준\Desktop\code\알고리즘\0516\2675\obj\Debug\netcoreapp3.1\2675.pdb
