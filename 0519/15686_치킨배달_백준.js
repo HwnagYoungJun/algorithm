@@ -10,7 +10,6 @@ solution = () => {
     const temp = input[0].split(" ").map((el) => parseInt(el))
     n = temp[0]
     m = temp[1]
-    
     let city = []
     for (let i = 1; i < n + 1; i++) {
         city.push(input[i].split(' ').map(Number))
@@ -52,7 +51,6 @@ my_com = (k, n, r, com) => {
         return;
     }
     if (k === n) return;
-
     my_com(k + 1, n, r, com)
     com.push(chicken[k])
     my_com(k + 1, n, r, com)
