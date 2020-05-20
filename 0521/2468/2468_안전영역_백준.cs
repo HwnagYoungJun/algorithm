@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+
 namespace _2468
 {
     class Program
     {
-        struct Pos
+        class Pos
         {
             public int x;
             public int y;

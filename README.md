@@ -95,3 +95,28 @@ my_com = (k, n, r, com) => {
 }
 ```
 
+
+
+### 200521
+
+- C# struct 만들기
+
+  > python에는 없는듯한 C#에서 사용하는 나만의 지정형태
+  >
+  > 이걸 사용하면 Queue, Stack등에서 사용하기가 편하다 
+
+  ```c#
+  static class Pos
+  {
+      public int x;
+      public int y;
+  
+      public Pos(int x, int y)
+      {
+          this.x = x;
+          this.y = y;
+      }
+  }
+  ```
+
+  
