@@ -77,5 +77,21 @@
   heapq.heappop() # 우선순위가 낮은거 부터 뺴서 리턴한다.
   heapq.heapify(리스트) # 리스트를 힙으로 만들어줍니다.
   ```
-
   
+### 200520
+- JS에서 조합짜기
+```js
+my_com = (k, n, r, com) => {
+  if (com.length === r) {
+      // 여기에서 하고싶은 것을 하자.
+      // ex)console.log(com)
+      return;
+  }
+  if (k === n) return;
+  my_com(k + 1, n, r, com)
+  com.push(chicken[k])
+  my_com(k + 1, n, r, com)
+  com.pop()  
+}
+```
+
