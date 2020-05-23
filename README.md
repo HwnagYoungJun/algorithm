@@ -182,3 +182,23 @@ my_com = (k, n, r, com) => {
   ```
 
   
+
+### 200523
+
+- C# 빠른출력 및 List 메서드
+
+  ```c#
+  // 빠른출력을 위한 StringBuilder
+  using System.Text;
+  
+  static StringBuilder sb;
+  sb = new StringBuilder();
+  sb.Append("출력");
+  Console.WriteLine(sb.ToString());
+  
+  // List<> 메서드
+  
+  List.Count // 인덱스 길이를 반환 ()가 없음
+  List.IndexOf('찾을것') // 찾을것의 인덱스을 반환
+  List.Contains('찾을것') // 찾을것이 있는지를 bool 형식으로 반환
+  ```
