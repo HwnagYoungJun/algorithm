@@ -202,3 +202,59 @@ my_com = (k, n, r, com) => {
   List.IndexOf('찾을것') // 찾을것의 인덱스을 반환
   List.Contains('찾을것') // 찾을것이 있는지를 bool 형식으로 반환
   ```
+
+
+
+### 200524
+
+- LIS(가장 긴 증가하는 부분 수열) O(NlogN)으로 설계하는 방법
+
+  > 기본적인 동적계획법은 O(N^2)이지만 이진탐색과 아이디어를 사용한다면 O(NlogN)으로 설계 가능!
+
+  참고한 곳 :  https://shoark7.github.io/programming/algorithm/3-LIS-algorithms
+
+  ​					 https://www.crocus.co.kr/681
+
+  ```python
+  def lis(arr):
+      C = [float('inf') for _ in range(A + 1)]
+      C[0] = float('-inf')
+      C[1] = arr[0]
+      longest = 1
+  
+      def search(lo, hi, n):
+          if lo == hi:
+              return lo
+          elif lo + 1 == hi:
+              return lo if C[lo] >= n else hi
+  
+          mid = (lo + hi) // 2
+          if C[mid] == n:
+              return mid
+          elif C[mid] > n:
+              return search(lo, mid, n)
+          else:
+              return search(mid + 1, hi, n)
+      
+      for n in arr:
+          if C[longest] < n:
+              longest += 1
+              C[longest] = n
+          else:
+              next_loc = search(0, longest, n)
+              C[next_loc] = n
+      
+      return longest
+  
+  A = int(input())
+  A_list = list(map(int, input().split()))
+  
+  print(lis(A_list))
+  ```
+
+
+
+### 200525
+
+
+
