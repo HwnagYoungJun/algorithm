@@ -51,9 +51,11 @@ for i in range(N):
     e.append(temp[i][1])
 
 no_cut, connect = lis(e)
+
 print(N - no_cut)
 
 f = collections.deque()
+
 for i in range(N - 1, -1, -1):
     if no_cut == connect[i]:
         no_cut -= 1
