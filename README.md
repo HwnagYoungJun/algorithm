@@ -11,6 +11,10 @@
 #### 200525
 - 폴더 구조 변경
 
+#### 200604
+
+- 매일매일은 구지 쓰지 말기 ^^
+
 
 
 ## < TIL >
@@ -272,6 +276,7 @@ my_com = (k, n, r, com) => {
 ### 200602
 
 - 플로이드 와샬 알고리즘
+  
   > 시간복잡도 n^3의 알고리즘
 - 코드 : https://github.com/HwnagYoungJun/Algorithm/blob/master/5%EC%9B%94/0530/11404_%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C_%EB%B0%B1%EC%A4%80.py
 ```python
@@ -283,3 +288,13 @@ for mid in range(n): # 중간 경로 for문이 제일 상위로 와야 누락 �
             else:
                 bus_list[start][end] = min(bus_list[start][end], bus_list[start][mid] + bus_list[mid][end])
 ```
+
+
+
+### 200604
+
+- 잘 못 구현한 다익스트라 알고리즘 저격하기
+
+  > 기본적인 다익스트라 알고리즘도 실수가 있을 수 있다. 항상 생각하자
+
+- http://www.secmem.org/blog/2019/01/09/wrong-dijkstra/
