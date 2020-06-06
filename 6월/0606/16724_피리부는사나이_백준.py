@@ -34,19 +34,18 @@ def move(D):
         d = [0, -1]
     else:
         d = [0, 1]
-
     return d
 
 N, M = map(int, input().split())
 map_list = [list(input()) for _ in range(N)]
-
 visit = [[False for _ in range(M)] for _ in range(N)]
 safe_zone = set()
+
 for row in range(N):
     for col in range(M):
         if visit[row][col]:
             continue
         visit[row][col] = True
         peter_the_piper(row, col)
-print(safe_zone)
+
 print(len(safe_zone))
