@@ -35,7 +35,6 @@ for i in range(M):
 # dijkstra로 1을 기준으로한 dijk 리스트 생성
 destroy_doro = {i: False for i in range(M)}
 temp_dijk = sorted(dijkstra())
-print(temp_dijk)
 min_cost = INF
 visit = {i: False for i in range(1, N + 1)}
 for i in range(N):
@@ -45,7 +44,6 @@ for i in range(N):
             d_cost -= conj[destination][index][1]
     # 최종비용 = (C * X이하의 자연수 ) + (남은 도로의 길이)
     total_cost = (C * temp_dijk[i][0]) + d_cost
-    print(total_cost)
     min_cost = min(total_cost, min_cost)
 
 print(min_cost)
