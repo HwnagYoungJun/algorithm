@@ -29,7 +29,6 @@ def bfs(s, f):
                         real_fast = fast_passenger
             
             map_list[real_fast[0]][real_fast[1]] = 0
-
             return (real_fast, time)
 
         for _ in range(len(deq)):
@@ -58,6 +57,9 @@ def bfs(s, f):
             elif real_fast[0] == fast_passenger[0]:
                 if real_fast[1] > fast_passenger[1]:
                     real_fast = fast_passenger
+
+        map_list[real_fast[0]][real_fast[1]] = 0
+        return (real_fast, time)
     else:
         return (-1, -1)
 
