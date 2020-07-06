@@ -1,0 +1,9 @@
+POP
+NUM 42
+END
+3
+0
+42
+3
+
+QUIT
