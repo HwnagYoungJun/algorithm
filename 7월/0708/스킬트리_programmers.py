@@ -1,9 +1,6 @@
-from pprint import *
-
 def solution(skill, skill_trees):
     
     answer = 0
-    len_s = len(skill)
     preceding_dict = {i: [] for i in range(26)}
     
     for i in range(len(skill) - 1, 0, -1):
