@@ -1,0 +1,11 @@
+C:\Users\황영준\Desktop\code\알고리즘\10월\1002\bin\Debug\netcoreapp3.1\1002.exe
+C:\Users\황영준\Desktop\code\알고리즘\10월\1002\bin\Debug\netcoreapp3.1\1002.deps.json
+C:\Users\황영준\Desktop\code\알고리즘\10월\1002\bin\Debug\netcoreapp3.1\1002.runtimeconfig.json
+C:\Users\황영준\Desktop\code\알고리즘\10월\1002\bin\Debug\netcoreapp3.1\1002.runtimeconfig.dev.json
+C:\Users\황영준\Desktop\code\알고리즘\10월\1002\bin\Debug\netcoreapp3.1\1002.dll
+C:\Users\황영준\Desktop\code\알고리즘\10월\1002\bin\Debug\netcoreapp3.1\1002.pdb
+C:\Users\황영준\Desktop\code\알고리즘\10월\1002\obj\Debug\netcoreapp3.1\1002.csprojAssemblyReference.cache
+C:\Users\황영준\Desktop\code\알고리즘\10월\1002\obj\Debug\netcoreapp3.1\1002.AssemblyInfoInputs.cache
+C:\Users\황영준\Desktop\code\알고리즘\10월\1002\obj\Debug\netcoreapp3.1\1002.AssemblyInfo.cs
+C:\Users\황영준\Desktop\code\알고리즘\10월\1002\obj\Debug\netcoreapp3.1\1002.dll
+C:\Users\황영준\Desktop\code\알고리즘\10월\1002\obj\Debug\netcoreapp3.1\1002.pdb
