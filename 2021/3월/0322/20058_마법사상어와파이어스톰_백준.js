@@ -1,4 +1,4 @@
-var readline = require('readline');
+var readline = require("readline");
 var rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -12,7 +12,9 @@ function solution() {
     index++;
     var N = parseInt(NQ[0]);
     var Q = parseInt(NQ[1]);
-    var iceArray = Array.from(Array(Math.pow(2, N)), function () { return Array(Math.pow(2, N)).fill(0); });
+    var iceArray = Array.from(Array(Math.pow(2, N)), function () {
+        return Array(Math.pow(2, N)).fill(0);
+    });
     for (var row = 0; row < Math.pow(2, N); row++) {
         var temp = input[index].split(" ");
         index++;
@@ -34,7 +36,7 @@ function solution() {
                 while (gStartCol < Math.pow(2, N)) {
                     for (var gRow = gStartRow; gRow < gStartRow + Math.pow(2, L); gRow++) {
                         for (var gCol = gStartCol; gCol < gStartCol + Math.pow(2, L); gCol++) {
-                            iceArray[(gCol - gStartCol) + gStartRow][Math.pow(2, L) - 1 - (gRow - gStartRow) + gStartCol] = copyIceArray[gRow][gCol];
+                            iceArray[gCol - gStartCol + gStartRow][Math.pow(2, L) - 1 - (gRow - gStartRow) + gStartCol] = copyIceArray[gRow][gCol];
                         }
                     }
                     gStartCol += Math.pow(2, L);
@@ -114,7 +116,9 @@ function solution() {
         }
         var maxIceLand = 0;
         var iceLand = 0;
-        var visited = Array.from(Array(Math.pow(2, N)), function () { return Array(Math.pow(2, N)).fill(false); });
+        var visited = Array.from(Array(Math.pow(2, N)), function () {
+            return Array(Math.pow(2, N)).fill(false);
+        });
         for (var row = 0; row < Math.pow(2, N); row++) {
             for (var col = 0; col < Math.pow(2, N); col++) {
                 if (visited[row][col]) {
@@ -136,8 +140,7 @@ function solution() {
     console.log(result1);
     console.log(result2);
 }
-rl.on('line', function (line) { return input.push(line); })
-    .on('close', function () {
+rl.on("line", function (line) { return input.push(line); }).on("close", function () {
     solution();
     process.exit();
 });
